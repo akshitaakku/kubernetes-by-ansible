@@ -1,0 +1,7 @@
+---
+- import_playbook: hostname.yml
+- import_playbook: crt_install.yml
+- import_playbook: cri_socket.yml
+- import_playbook: k8s.yml
+- import_playbook: setup_k8s.yml
+- import_playbook: post_cluster.yml
